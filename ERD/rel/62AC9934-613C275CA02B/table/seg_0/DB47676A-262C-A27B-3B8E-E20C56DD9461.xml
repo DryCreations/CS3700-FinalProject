@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB47676A-262C-A27B-3B8E-E20C56DD9461" name="Member">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>26F3A8A1-3403-F8F8-7187-C8C64CAF0F69</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="memberID" id="1BDFBFE2-15CC-4D54-97FF-7BA1FAD3135A">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>4E0B0B3B-7CEC-AEE6-5062-024BC7E10CC0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Member_memberID" id="3E39D232-4D08-0FF1-7A36-EC807DEE7308">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>360F121C-4203-338D-053E-81FA133574A0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4984C959-3072-AB0F-DF6D-31017AC4427C" referredColumn="1BDFBFE2-15CC-4D54-97FF-7BA1FAD3135A"/>
+</associations>
+</Column>
+<Column name="memberStreet" id="B9F06A8A-CB31-FE6B-8B2F-A192C2440AFC">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>A651A36C-C284-62CA-BC2E-974A332BE130</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="memberCity" id="8C476282-4561-3C34-00AC-78995D51CE87">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>7FCD0E47-2E05-C848-F56C-A88EC5728E3B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="memberState" id="2852FD7D-423F-930D-A4FC-16D36781B53C">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>AF9774DD-0E78-1946-B95F-A1CCA5B78D6D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="memberZip" id="90510887-30B7-2DB5-0543-849E44793CC8">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>FA70127D-080A-0552-82EE-E087DD0EDE4B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44800C43-E37C-9616-8539-F5DF7A28C94A" name="Member_PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>10456C60-1C99-C4C4-2A7E-F943120D9DF9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BDFBFE2-15CC-4D54-97FF-7BA1FAD3135A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C3E07B6-AD17-7737-9F2D-0EB8B1614594" name="Member_Member_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>7EEABF63-8C12-2A87-ACC4-661460DA9EB0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E39D232-4D08-0FF1-7A36-EC807DEE7308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

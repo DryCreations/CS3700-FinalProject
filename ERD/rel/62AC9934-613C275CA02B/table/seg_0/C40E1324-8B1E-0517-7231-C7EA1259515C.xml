@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C40E1324-8B1E-0517-7231-C7EA1259515C" name="Author">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>A2216C9E-0ED1-C217-CEE5-048BF5914079</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="authorID" id="A64587C2-4675-3126-1F03-49255F93EBC3">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>747C9183-01E1-24FB-6827-AD597796AC2D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="authorFirst" id="9574C7F8-4D73-8924-0F12-3CEF24A75941">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>E3F9C8E2-2F56-4BD4-60F5-47847DCB679C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="authorMiddle" id="26B40465-4775-8335-278F-CB27AF683544">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>FE8E68A1-7690-FE76-70C6-66F80A856388</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="authorLast" id="8F4E7FDB-7051-0614-C4D0-DB9BB5E1F9D5">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>05BEB69A-05CB-24B1-17BD-6EBD078BADAD</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4052365C-D7C6-0A8F-4401-11F228FDAF0C" name="Author_PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>32F9CFEB-5FDD-50F4-B59A-9C628E063613</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A64587C2-4675-3126-1F03-49255F93EBC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

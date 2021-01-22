@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5207DA9-7E23-6121-5506-5F8F883980A2" name="Fine">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>F5710C43-5A93-9A00-57B3-DA96EF54F38A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Member_memberID" id="71204CD1-A093-94E1-7F26-309241ECBBDC">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>CD50F261-BEF3-3EE4-F69F-AFFF0FDD5A64</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F4C7B9B-A4C8-1D69-71EB-97FA9CBE60A9" referredColumn="1BDFBFE2-15CC-4D54-97FF-7BA1FAD3135A"/>
+</associations>
+</Column>
+<Column name="fineID" id="F797C754-01D4-FF8D-6598-B219034C86DA">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>F0612471-148F-B61D-8B82-801D14B1573A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount" id="CC49E9DF-38CD-0CD7-073E-B3A4FA8CBEA5">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>A4F1ED49-2482-FA50-63BC-8DCDA6665F4F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datePaid" id="A3B7E6B3-364F-AB71-DF54-7295DC32DDFC">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>A7C51EF3-D9C9-826E-3046-60F36E4A877E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB68D4B4-9F5D-EEEA-0937-5049DE60BB98" name="Fine_PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>A8917475-00BE-3E79-E0CF-854BAFF03AF5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F797C754-01D4-FF8D-6598-B219034C86DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="999FFECD-768C-84A2-94B9-5C714140E1C5" name="Fine_Member_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>39F7B0F1-D2CA-FC7B-1725-2ACE24056C06</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71204CD1-A093-94E1-7F26-309241ECBBDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

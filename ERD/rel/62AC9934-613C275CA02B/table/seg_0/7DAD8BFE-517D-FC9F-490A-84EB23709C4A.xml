@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DAD8BFE-517D-FC9F-490A-84EB23709C4A" name="CopyOfBook">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>5B73A5E9-4254-82E3-C4D6-24B6A203A44A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Location_locationID" id="36F5380A-DF89-D128-81EC-E7CFF54A82DF">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>026E1928-B629-8993-8D70-774E8A5D4E8A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="349B6823-B6ED-6575-A645-62D55D9CFEB4" referredColumn="235E4289-1EA1-FB68-39DE-7FED255D5B55"/>
+</associations>
+</Column>
+<Column name="bookID" id="E8892160-6474-BAFF-2F6F-2007A590E3C3">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>FDA27B9F-93CF-46F9-9A9A-3EF156A454FC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Book_isbn" id="B24C43C6-43F8-A033-FDF9-49764095D7D6">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>08E5E70C-3F37-FCA1-D3F0-1DDF3BE6BF06</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B36DE204-A857-23C0-D241-A295485B7E34" referredColumn="042E5CF9-E89D-A823-2D81-264089A5471A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75859DC9-1A5C-475A-9481-61D3724E0699" name="CopyOfBook_PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>05A647D2-B855-6C96-3ACE-5D4663C1A333</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8892160-6474-BAFF-2F6F-2007A590E3C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50A7F19C-C991-6078-A6C3-D0DE2B7824C8" name="CopyOfBook_Location_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>876C0FAE-FE4B-608D-E8C5-5ACE89ADB63B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36F5380A-DF89-D128-81EC-E7CFF54A82DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F79830C-9B82-88E0-BBBF-71082F4197FC" name="CopyOfBook_Book_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>042D8371-6D8F-C5E5-B287-8F1C78456AF5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B24C43C6-43F8-A033-FDF9-49764095D7D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

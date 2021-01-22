@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AEB58D3-8F4A-C7DF-99BE-95EC593F2E79" name="Location">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 15:32:12 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="locationID" id="C4AD5A17-14D1-B662-EDB3-AFB20A1514CD">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:50:11 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locationStreet" id="B1B7FE5C-44E2-53D4-E3B3-0AE2338C23DC">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:30:52 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locationCity" id="4B6D3043-AC18-ECF0-F99C-0F5849EEE143">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:31:18 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locationState" id="5C9C6434-BDC0-5DB1-C2AD-67D2033EEE2F">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:31:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locationZip" id="C42CF0E6-5123-6B1E-F053-A2510403F5FA">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:32:24 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locationname" id="BAD11FB5-0F05-0CCF-196A-F07AA8DCACA9">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-06 18:28:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCE1F94D-8D41-1BDF-6BD6-FCDE225BE9CE" name="Location PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:50:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4AD5A17-14D1-B662-EDB3-AFB20A1514CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

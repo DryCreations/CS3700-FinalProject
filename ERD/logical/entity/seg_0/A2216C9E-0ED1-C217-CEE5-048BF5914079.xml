@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2216C9E-0ED1-C217-CEE5-048BF5914079" name="Author">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 15:36:41 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="authorID" id="747C9183-01E1-24FB-6827-AD597796AC2D">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:45:10 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="authorFirst" id="E3F9C8E2-2F56-4BD4-60F5-47847DCB679C">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:03:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="authorMiddle" id="FE8E68A1-7690-FE76-70C6-66F80A856388">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:03:30 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="authorLast" id="05BEB69A-05CB-24B1-17BD-6EBD078BADAD">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:03:58 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32F9CFEB-5FDD-50F4-B59A-9C628E063613" name="Author PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:45:46 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>747C9183-01E1-24FB-6827-AD597796AC2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

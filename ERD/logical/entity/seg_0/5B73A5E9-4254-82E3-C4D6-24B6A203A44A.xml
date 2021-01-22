@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B73A5E9-4254-82E3-C4D6-24B6A203A44A" name="CopyOfBook">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 15:33:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="locationID" id="026E1928-B629-8993-8D70-774E8A5D4E8A">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:50:26 UTC</createdTime>
+<generatorID>876C0FAE-FE4B-608D-E8C5-5ACE89ADB63B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>C4AD5A17-14D1-B662-EDB3-AFB20A1514CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookID" id="FDA27B9F-93CF-46F9-9A9A-3EF156A454FC">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:51:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isbn" id="08E5E70C-3F37-FCA1-D3F0-1DDF3BE6BF06">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:57:04 UTC</createdTime>
+<generatorID>042D8371-6D8F-C5E5-B287-8F1C78456AF5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>CD9D8CDF-03C6-B01A-A7D3-5747C1498083</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05A647D2-B855-6C96-3ACE-5D4663C1A333" name="BookAtLocation PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:51:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDA27B9F-93CF-46F9-9A9A-3EF156A454FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

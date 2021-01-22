@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8977994-EAAB-0A41-BFBA-3FCD0AE634D4" name="Borrow">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 15:37:10 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="borrowID" id="73D324E1-5384-AEB0-AA34-6527359F1EAF">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:48:16 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="memberID" id="87A16184-8936-5788-F30E-A20F1329F789">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:49:52 UTC</createdTime>
+<generatorID>0D4DCAFB-B736-4431-418B-536B4AEB1411</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>4E0B0B3B-7CEC-AEE6-5062-024BC7E10CC0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookID" id="B58005CE-A32A-471E-DB20-E890D61BA141">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:10:26 UTC</createdTime>
+<generatorID>28C15149-D9DD-A3FB-B757-CEA0E487FE6B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>FDA27B9F-93CF-46F9-9A9A-3EF156A454FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="borrowDate" id="4CD5D188-2AAF-472A-100C-8D370E10E0C1">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:05:03 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dueDate" id="24222AD9-4A10-925C-9DD4-962DCDE753ED">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:05:20 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="returnDate" id="3215F684-ED7D-B9CF-D3EE-5A5CE467A6CD">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:05:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locationID" id="19853F6F-7F76-F0C3-D8D3-369BE591B363">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 20:14:34 UTC</createdTime>
+<generatorID>E1FC151F-46E4-9067-BB7A-FA989F6F1AF3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>C4AD5A17-14D1-B662-EDB3-AFB20A1514CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="returndamages" id="6AF78AE8-66ED-7F5E-D054-48461ECF4328">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-06 18:27:11 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6151C575-8DF3-76F9-204C-95B30145A021" name="Borrow PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:48:37 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73D324E1-5384-AEB0-AA34-6527359F1EAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

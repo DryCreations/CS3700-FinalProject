@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="75C4DA72-087B-8253-BC36-9A55BEA5E7F1" name="Transfer">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 16:01:32 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="locationID" id="DAD36EC4-C3B7-27C3-A4B7-A0249FC70FBC">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:50:26 UTC</createdTime>
+<generatorID>47AC6D25-8B2C-CA6E-FAE0-DCD1BBA7AD9B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>C4AD5A17-14D1-B662-EDB3-AFB20A1514CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transferID" id="91AD85AE-1494-5DFA-29EB-E569F22E02A8">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:50:52 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookID" id="E4D50057-ED91-79B4-AE61-1602C4574044">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:51:59 UTC</createdTime>
+<generatorID>3085D0F1-B771-62BC-D0DA-95CF1185CB14</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>FDA27B9F-93CF-46F9-9A9A-3EF156A454FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transferCompleted" id="5A91D231-D829-A4EB-7066-7E3BC8DE7C2F">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:59:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F14425C1-A9A5-54F5-B113-4C07DB4F50A2" name="Transfer PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:51:05 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91AD85AE-1494-5DFA-29EB-E569F22E02A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

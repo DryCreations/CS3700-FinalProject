@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC2AE82F-1F20-7F04-12F9-8D2DEC9255A1" name="Request">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>BF9A05A9-8A5E-8E41-9081-93C02707CFDB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="requestID" id="FB569EF4-435A-8596-93B1-5E16F16C4449">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>872C1771-3FED-7887-9448-9399932684F7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Member_memberID" id="003F51D8-F854-47B7-6EC9-56722C3706A5">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>73438BAE-0156-41B6-147C-6F4F291D640C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB4945E2-BC36-F685-249B-35E973F6D4FF" referredColumn="1BDFBFE2-15CC-4D54-97FF-7BA1FAD3135A"/>
+</associations>
+</Column>
+<Column name="Location_locationID" id="D0529268-8A9F-61F4-789A-B20EB1E940B0">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>0A2AAE45-F6CA-3E1B-9EEB-F312C9BCF422</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5D2FAA6-0E90-1C51-1BCA-953F6C96F32C" referredColumn="235E4289-1EA1-FB68-39DE-7FED255D5B55"/>
+</associations>
+</Column>
+<Column name="Book_isbn" id="BF38EB3D-E08D-B03F-FCE6-C8AF4C593ED9">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>B1B4C245-EB84-FC6B-D22F-83059CBEC7D9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5E685AE-BD97-100E-D3D2-050C294586FD" referredColumn="042E5CF9-E89D-A823-2D81-264089A5471A"/>
+</associations>
+</Column>
+<Column name="requestDate" id="451AD43E-343D-DDE4-D74B-AF3773B7BF34">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>B190BF0A-D9C9-7F5C-A1B2-4C129BA36902</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="527A4BEF-E6C3-41C1-2207-8462AE96B042" name="Request_PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>6EE92580-0EA5-95E8-F535-EAE0E289F497</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB569EF4-435A-8596-93B1-5E16F16C4449"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EA06711-19F4-E9B3-4966-4ED47581FB48" name="Request_Member_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>003E6AC3-DA6F-036F-67ED-140EA636E2DD</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="003F51D8-F854-47B7-6EC9-56722C3706A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA82774B-6482-8187-BA2E-AD07924D4A05" name="Request_Book_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>CF9CAA05-E2D2-CAE7-5D1A-CBA4FDC20D93</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF38EB3D-E08D-B03F-FCE6-C8AF4C593ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE91892D-5D5A-2A65-1C2D-ED0E67C3598D" name="Request_Location_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>4C52ADEE-1A72-768D-7B11-D1CFAC2550AE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0529268-8A9F-61F4-789A-B20EB1E940B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

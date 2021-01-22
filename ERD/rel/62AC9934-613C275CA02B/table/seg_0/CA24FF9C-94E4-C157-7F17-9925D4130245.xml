@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA24FF9C-94E4-C157-7F17-9925D4130245" name="Borrow">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>A8977994-EAAB-0A41-BFBA-3FCD0AE634D4</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="borrowID" id="BDC653C7-CFE2-4B16-E8E1-53701239764F">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>73D324E1-5384-AEB0-AA34-6527359F1EAF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Member_memberID" id="76AB8EBE-A343-48DE-40C8-03F02298E917">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>87A16184-8936-5788-F30E-A20F1329F789</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB311F11-A030-BED3-363D-21D6A2F80CE2" referredColumn="1BDFBFE2-15CC-4D54-97FF-7BA1FAD3135A"/>
+</associations>
+</Column>
+<Column name="CopyOfBook_bookID" id="E7BE8E16-82C2-D898-D5B2-C8D529602C5D">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>B58005CE-A32A-471E-DB20-E890D61BA141</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA85F25B-F104-4A68-36E7-9DABCD220927" referredColumn="E8892160-6474-BAFF-2F6F-2007A590E3C3"/>
+</associations>
+</Column>
+<Column name="borrowDate" id="8E14C6C9-45B1-5C72-7738-8F02AF9CA909">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>4CD5D188-2AAF-472A-100C-8D370E10E0C1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dueDate" id="0322CA21-4B7E-878A-B273-EF17807A6518">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>24222AD9-4A10-925C-9DD4-962DCDE753ED</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="returnDate" id="CFA4C092-5BB8-C72B-BCFB-0AC6520847C8">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>3215F684-ED7D-B9CF-D3EE-5A5CE467A6CD</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_locationID" id="2BD14D2E-C83C-5E94-42A0-62B6F6BD4848">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>19853F6F-7F76-F0C3-D8D3-369BE591B363</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC26BEEB-0FB5-76A7-4F90-6D62E36B6163" referredColumn="235E4289-1EA1-FB68-39DE-7FED255D5B55"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96F3F42C-5FF9-30CA-16C3-851813F9B917" name="Borrow_PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>6151C575-8DF3-76F9-204C-95B30145A021</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDC653C7-CFE2-4B16-E8E1-53701239764F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C0981F7-0861-5091-18A7-05890C612758" name="Borrow_CopyOfBook_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>28C15149-D9DD-A3FB-B757-CEA0E487FE6B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7BE8E16-82C2-D898-D5B2-C8D529602C5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE6B2628-9FC1-5F4C-C3EE-A49D86B7243A" name="Borrow_Member_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>0D4DCAFB-B736-4431-418B-536B4AEB1411</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76AB8EBE-A343-48DE-40C8-03F02298E917"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2863B4BC-04BF-D8D4-B43F-4B5D1F10C23C" name="Borrow_Location_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>E1FC151F-46E4-9067-BB7A-FA989F6F1AF3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BD14D2E-C83C-5E94-42A0-62B6F6BD4848"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

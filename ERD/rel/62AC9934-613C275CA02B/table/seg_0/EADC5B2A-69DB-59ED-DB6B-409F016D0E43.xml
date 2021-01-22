@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EADC5B2A-69DB-59ED-DB6B-409F016D0E43" name="Book">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>3673A05E-3216-9167-6AE7-C34129763B6D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="isbn" id="042E5CF9-E89D-A823-2D81-264089A5471A">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>CD9D8CDF-03C6-B01A-A7D3-5747C1498083</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Publisher_publisherID" id="623CC7DE-6419-F47B-5A90-46BD6C401941">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>969AFB58-D9C7-1AC0-93B8-AB4E38F37A0F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B616420-42B7-BB18-5A59-1C2E50CC5631" referredColumn="1AB2D00F-8B9D-2FA0-71A6-932F7761A01C"/>
+</associations>
+</Column>
+<Column name="Author_authorID" id="741C20B4-B132-F734-78C1-DBCF0CD65079">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>32CE28E2-AEE5-A6BF-0194-952D8ADCA549</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD57BA3B-6585-5C52-CFC1-191AB824D8C6" referredColumn="A64587C2-4675-3126-1F03-49255F93EBC3"/>
+</associations>
+</Column>
+<Column name="Genre_genreID" id="56A40936-8F22-23AD-97DF-B0311C26090C">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>DCDB518D-783A-2236-9BDE-3D0D94AE4B75</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEE4E7F1-1D65-89C7-FE84-A3B96F2BD022" referredColumn="AFC5CA88-28D5-0AB3-909C-2A9B9B97C74C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83B1C3B0-660F-B752-EE01-818FF16E5191" name="Book_PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>D7145AA4-7AC4-5F54-2CBD-EB508784BD2D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="042E5CF9-E89D-A823-2D81-264089A5471A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E20E6F66-34AD-D460-FECA-A41E922C377A" name="Book_Author_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>6891CE7B-57F8-40DD-BB5C-22300DC7FA38</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="741C20B4-B132-F734-78C1-DBCF0CD65079"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5F00FAC-4267-5B53-71C5-E7A6CBF62C8A" name="Book_Genre_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>0131D13F-B24F-3E46-0E41-6FFCABFEC529</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56A40936-8F22-23AD-97DF-B0311C26090C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3744285B-C226-4BF9-6273-3DAAD69168C8" name="Book_Publisher_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>303BA5FE-6C24-F0F0-75A7-5FD2B87B03AE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="623CC7DE-6419-F47B-5A90-46BD6C401941"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

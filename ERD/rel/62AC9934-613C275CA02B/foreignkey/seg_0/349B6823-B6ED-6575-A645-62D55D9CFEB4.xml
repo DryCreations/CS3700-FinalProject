@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="349B6823-B6ED-6575-A645-62D55D9CFEB4" containerWithKeyObject="7DAD8BFE-517D-FC9F-490A-84EB23709C4A" localFKIndex="50A7F19C-C991-6078-A6C3-D0DE2B7824C8" name="CopyOfBook_Location_FK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-03 17:40:59 UTC</createdTime>
+<generatorID>876C0FAE-FE4B-608D-E8C5-5ACE89ADB63B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Location</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>15BB37C4-83D3-1133-6994-7550FD8193E4</referredTableID>
+<keyObject>53F5F29E-A1E9-7DCF-5A48-BCD20BC57B2F</keyObject>
+<referredKeyID>53F5F29E-A1E9-7DCF-5A48-BCD20BC57B2F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>locationID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

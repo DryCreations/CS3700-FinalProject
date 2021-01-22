@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3673A05E-3216-9167-6AE7-C34129763B6D" name="Book">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 15:32:33 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="isbn" id="CD9D8CDF-03C6-B01A-A7D3-5747C1498083">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 18:26:39 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="publisherID" id="969AFB58-D9C7-1AC0-93B8-AB4E38F37A0F">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:44:57 UTC</createdTime>
+<generatorID>303BA5FE-6C24-F0F0-75A7-5FD2B87B03AE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>46D74209-D4C5-C2A6-863C-118E86E11B6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="authorID" id="32CE28E2-AEE5-A6BF-0194-952D8ADCA549">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:45:47 UTC</createdTime>
+<generatorID>6891CE7B-57F8-40DD-BB5C-22300DC7FA38</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>747C9183-01E1-24FB-6827-AD597796AC2D</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genreID" id="DCDB518D-783A-2236-9BDE-3D0D94AE4B75">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:46:07 UTC</createdTime>
+<generatorID>0131D13F-B24F-3E46-0E41-6FFCABFEC529</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<referedAttribute>F87FDE0E-EC66-C98C-210F-A4F4CA014CE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="title" id="406140BA-79DD-55E1-E403-BB7F49EA4F4F">
+<createdBy>hayde</createdBy>
+<createdTime>2019-12-06 18:26:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7145AA4-7AC4-5F54-2CBD-EB508784BD2D" name="Book PK">
+<createdBy>hayde</createdBy>
+<createdTime>2019-11-25 19:41:31 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="62AC9934-D984-CC21-3E6D-613C275CA02B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD9D8CDF-03C6-B01A-A7D3-5747C1498083</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
